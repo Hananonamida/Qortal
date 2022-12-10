@@ -6,5 +6,6 @@
   "apiDocumentationEnabled": true,
   "topOnly":true,
   "apiWhitelistEnabled": false,
-  "apiRestricted": false
+  "apiRestricted": false,
+  "bindAddress": "0.0.0.0"
 }

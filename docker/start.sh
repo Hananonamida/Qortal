@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /qortal && java -jar qortal.jar
+cd /qortal && java -Xmx2G -jar qortal.jar
