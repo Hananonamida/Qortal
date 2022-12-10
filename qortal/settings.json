@@ -1,0 +1,10 @@
+{
+  "repositoryPath": "/qortal/db",
+  "dataPath": "/qortal/data",
+  "walletsPath": "/qortal/wallets",
+  "listsPath": "/qortal/lists",
+  "apiDocumentationEnabled": true,
+  "topOnly":true,
+  "apiWhitelistEnabled": false,
+  "apiRestricted": false
+}
