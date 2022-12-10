@@ -2,7 +2,7 @@ FROM openjdk:11.0.11
 
 WORKDIR "/"
 
-COPY ./qortal /qortal/
+COPY ./qortal/ /qortal/
 
 ADD docker/start.sh /start.sh
 
