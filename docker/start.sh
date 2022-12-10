@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar /qortal/qortal.jar
+cd /qortal && java -jar qortal.jar
