@@ -3,9 +3,7 @@ FROM openjdk:11.0.11
 WORKDIR "/"
 COPY ./qortal/ /qortal/
 ADD docker/start.sh /start.sh
-
-RUN sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
-RUN apt-get update && apt -y install at htop vim
+ADD docker/at /bin
 
 RUN chmod +x /start.sh
 RUN echo 'KEY1=' $KEY1
