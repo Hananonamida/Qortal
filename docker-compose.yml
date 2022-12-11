@@ -5,6 +5,3 @@ services:
       context: .
     ports:
       - "12391:12391"
-    environment:
-      KEY1: value1
-      KEY2: value2
