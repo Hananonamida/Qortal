@@ -3,5 +3,7 @@ services:
   app:
     build:
       context: .
+    env_file:
+      - .env
     ports:
       - "12391:12391"
